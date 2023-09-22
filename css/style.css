@@ -259,6 +259,10 @@ body{
     animation-delay: var(--d);
 }
 
+.delayed_wave a{
+    text-decoration: none;
+}
+
 @keyframes text_wave2 {
     0%
     {
@@ -310,6 +314,7 @@ body{
     animation: text_wave ease-in-out;
     animation-duration: var(--i);
     animation-delay: var(--d);
+    text-decoration: none;
 }
 
 
