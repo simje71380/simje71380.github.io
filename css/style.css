@@ -98,8 +98,8 @@ body{
 
 .parent {
     position: relative;
-    width: 99%;
-    height: 99vh;
+    width: calc(100% - 5px); /*scroll bar width*/
+    height: 100vh;
     display: flex;
     flex-direction: column;
     z-index: 888;
@@ -117,7 +117,7 @@ body{
 .content {
     display: table-cell;
     flex: 1;
-    margin: 2vh 1vw;
+    margin: 15px 15px 15px 20px;
     border-radius: 25px;
     z-index: 50;
     overflow: clip;
